@@ -3,7 +3,7 @@ const stringLength = (str) => {
     return str.length;
   } else {
     throw new Error(
-      "String must be greater than 0 and less than or equal to 10"
+      "This String must be greater than 0 and less than or equal to 10"
     );
   }
 };
